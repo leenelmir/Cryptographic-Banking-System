@@ -1,0 +1,31 @@
+INSTALL:
+    pip install pycryptodome
+    pip install crytography
+    pip install bcrypt
+
+RUN:
+    python Client.py
+
+users that exist (created using register_static_users() in Client.py):
+    1- 
+        role: admin
+        username: admin1
+        password: Admin!
+
+    2- 
+        role: employee
+        username: employee1
+        password: Employee!
+
+    3- client:
+        role: user
+        username: user1
+        password: User!!
+
+to remove generated data from previous run, delete all files/folders ending with _DEL
++   to restore default users : register_static_users in main() 
+
+Files ending with CLIENT_SIDE are stored on the client side and files ending with SERVER_SIDE are on the server side
+
+Assume client and server are connected by a socket, 
+Assume the Encryptions File exists once on client side and another on server side
