@@ -2,7 +2,7 @@
 
 Developed a cryptographic client–server banking system prioritizing transaction confidentiality, integrity, and authenticity. Implemented secure session establishment, key management, and role-based access control for users, employees, and administrators.
 
-**Technologies: **Python – AES-GCM – RSA (2048-bit) – TLS 1.2 – PBKDF2 – bcrypt – HSM – Socket programming.
+**Technologies:** Python – AES-GCM – RSA (2048-bit) – TLS 1.2 – PBKDF2 – bcrypt – HSM – Socket programming.
 **Key Features:**
 
 Encrypted client/server communication via TLS and AES-GCM session keys.
